@@ -62,8 +62,14 @@ header h1 {
     margin-top: 0;
 }
 
+#text{
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 2px 0px;
+}
+
 textarea {
-    width: 100%;
+    width: 90%;
     height: 100px;
     padding: 10px;
     border: 1px solid #ccc;

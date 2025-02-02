@@ -46,7 +46,7 @@ $notes = $stmt->fetchAll();
             <div class="add-note-card">
                 <h2>Add a New Note</h2>
                 <form action="add_note.php" method="POST">
-                    <input type="text" name="title" placeholder="Title" maxlength="100" required>
+                    <input  id="text"  type="text" name="title" placeholder="Title" maxlength="100" required>
                     <textarea name="content" placeholder="Content" required></textarea>
                     <button type="submit" class="btn">Add Note</button>
                 </form>
