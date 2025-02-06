@@ -55,31 +55,6 @@ USAGE :
 4. Edit Notes: Click the "Edit" button on any note to update its content.
 5. Delete Notes: Click the "Delete" button on any note to remove it.
 
-File Structure :
-
-PROJECT/
-├── index.html                # Landing page 
-├── login.php                 # User login
-├── signup.php                # User registration
-├── logout.php                # User logout
-├── dashboard.php             # Main dashboard (displays notes)
-├── add_note.php              # Add a new note
-├── edit_note.php             # Edit an existing note
-├── delete_note.php           # Delete a note
-├── styles/                   # CSS files
-│   ├── style.css             # Main styles
-│   └── auth.css              # Styles for login/signup pages
-├── scripts/                  # JavaScript files
-│   └── script.js             # Optional JavaScript
-├── includes/                 # Reusable PHP components
-│   ├── db.php                # Database connection
-│   ├── header.php            # Common header
-│   ├── footer.php            # Common footer
-│   └── auth_functions.php    # Authentication functions
-├── assets/                   # Static assets (images, icons, etc.)
-│   └── logo.png              # Example logo
-└── README.md                 # Project documentation
-
 Contributing :
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
